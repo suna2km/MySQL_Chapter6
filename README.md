@@ -15,13 +15,10 @@
 
 
 ## Summary
-This assignment creates a testing table of the Sakila database and changes rows from it. The final query deletes the testing table. 
+
 
 ## List of New Concepts Used 
-- Creating Backup Tables
-- Inserting Rows
-- Updating Rows
-- Deleting Rows
+- 
   
 ## Console output testing as images
 ### Query 1: COUNT
