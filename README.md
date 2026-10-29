@@ -4,13 +4,13 @@
 - [Summary](#summary)
 - [Authors](#authors)
 - [New Concepts Used](#list-of-new-concepts-used)
-- [Query 1](#query-1)
-- [Query 2](#query-2)
-- [Query 3](#query-3)
-- [Query 4](#query-4)
-- [Query 5](#query-5)
-- [Query 6](#query-6)
-- [Query 7](#query-7)
+- [Query 1: COUNT](#query-1-count)
+- [Query 2: COUNT(DISTINCT column)](#query-2-countdistinct-column)
+- [Query 3: GROUP BY and HAVING](#query-3-group-by-and-having)
+- [Query 4: Functionally dependent column](#query-4-functionally-dependent-column)
+- [Query 5: WHERE vs HAVING - Part 1](#query-5-where-vs-having---part-1)
+- [Query 6: WHERE vs HAVING - Part 2](#query-6-where-vs-having---part-2)
+- [Query 7: WITH ROLLUP](#query-7-with-rollup)
 
 
 ## Summary
@@ -23,22 +23,22 @@ This assignment creates a testing table of the Sakila database and changes rows 
 - Deleting Rows
   
 ## Console output testing as images
-### Query 1
+### Query 1: COUNT
 
 
-### Query 2
+### Query 2: COUNT(DISTINCT column)
 
 
-### Query 3
+### Query 3: GROUP BY and HAVING
 
 
-### Query 4 
+### Query 4: Functionally dependent column
 
-### Query 5 
+### Query 5: WHERE vs HAVING - Part 1
 
-### Query 6 
+### Query 6: WHERE vs HAVING - Part 2
 
-### Query 7
+### Query 7: WITH ROLLUP
 
 ## Authors
 **Suna Aregay**  
