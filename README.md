@@ -11,6 +11,7 @@
 - [Query 5: WHERE vs HAVING - Part 1](#query-5-where-vs-having---part-1)
 - [Query 6: WHERE vs HAVING - Part 2](#query-6-where-vs-having---part-2)
 - [Query 7: WITH ROLLUP](#query-7-with-rollup)
+- [Query 8: GROUPING and COALESCE functions](#query-8-grouping-and-coalesce-functions)
 
 
 ## Summary
@@ -39,6 +40,8 @@ This assignment creates a testing table of the Sakila database and changes rows 
 ### Query 6: WHERE vs HAVING - Part 2
 
 ### Query 7: WITH ROLLUP
+
+### Query 8: GROUPING and COALESCE functions
 
 ## Authors
 **Suna Aregay**  
