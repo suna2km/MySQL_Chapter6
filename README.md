@@ -43,5 +43,7 @@
 ## Authors
 **Suna Aregay**  
 GitHub: [@suna2km](https://github.com/suna2km)
+** Michael Szigethy **
+GitHub: [@Miz-Bl](https://github.com/Miz-Bl)
 
 
