@@ -40,3 +40,22 @@ SELECT
 FROM payment
 GROUP BY customer_id
 HAVING total_amount_paid > 100;
+
+/*
+Programmer Name: Michael Szigethy
+Query 4: Functionally dependent column
+Rewrite query 3 to have a functionally dependent column customer name (last_name, ‘,’, first name)
+*/
+
+SELECT
+payment.customer_id,
+CONCAT(customer.last_name, ‘,’ ,customer.first_name) AS customer_name,  
+    COUNT(payment.customer_id) AS number_of_payment,
+    MIN(payment.amount) AS min_payment,
+    MAX(payment.amount) AS max_payment,
+    ROUND(AVG(payment.amount), 2) AS avg_payment,
+	SUM(payment.amount) AS total_amount_paid
+FROM payment INNER JOIN customer
+	ON payment.customer_id = customer.customer_id
+GROUP BY payment.customer_id
+HAVING total_amount_paid > 100;
