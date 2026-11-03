@@ -84,3 +84,26 @@ GROUP BY
 	payment.customer_id,
 	customer_name
 HAVING SUM(payment.amount) > 100;
+
+/*
+Programmer Name: Michael Szigethy
+Query 6: WHERE vs HAVING - Part 2
+Rewrite query 5 to include store_id in the column list. Now that store_id is in the column list, you can move the filter to
+the HAVING clause. NOTE: Query 5 is more efficient than Query 6
+*/
+
+SELECT
+payment.customer_id,
+CONCAT(customer.last_name, ',' ,customer.first_name) AS customer_name, store_id,
+    COUNT(payment.customer_id) AS number_of_payment,
+    MIN(payment.amount) AS min_payment,
+    MAX(payment.amount) AS max_payment,
+    ROUND(AVG(payment.amount), 2) AS avg_payment,
+	SUM(payment.amount) AS total_amount_paid
+FROM payment 
+INNER JOIN customer	ON payment.customer_id = customer.customer_id
+GROUP BY 
+	payment.customer_id,
+	customer_name
+HAVING SUM(payment.amount) > 100 && store_id = 1;
+
