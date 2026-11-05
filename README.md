@@ -18,27 +18,39 @@
 
 
 ## List of New Concepts Used 
-- 
+- COUNT
+- COUNT(DISTINCT column)
+- GROUP BY and HAVING
+- Functionally dependent column
+- WHERE vs HAVING
+- WITH ROLLUP
+- GROUPING and COALESCE
   
 ## Console output testing as images
 ### Query 1: COUNT
+![Query 1](Assets/Chap6_query1.png)
 
 
 ### Query 2: COUNT(DISTINCT column)
-
+![Query 2](Assets/Chap6_query2.png)
 
 ### Query 3: GROUP BY and HAVING
-
+![Query 3](Assets/CHAP6_QUERY3.png)
 
 ### Query 4: Functionally dependent column
+![Query 4](Assets/Chap6_query4.png)
 
 ### Query 5: WHERE vs HAVING - Part 1
+![Query 5](Assets/Chap6_query5.png)
 
 ### Query 6: WHERE vs HAVING - Part 2
+![Query 6](Assets/Chap6_query6.png)
 
 ### Query 7: WITH ROLLUP
+![Query 7](Assets/chap6_query7.png)
 
 ### Query 8: GROUPING and COALESCE functions
+![Query 8](Assets/Chap6_query8.png)
 
 ## Authors
 **Suna Aregay**  
