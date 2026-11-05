@@ -15,7 +15,8 @@
 
 
 ## Summary
-
+This project is a collection of eight queries that include summary queries and aggregate functions. These queries use
+clauses such as GROUP BY and HAVING and include functions like MIN, MAX, AVG and SUM.
 
 ## List of New Concepts Used 
 - COUNT
